@@ -12,5 +12,7 @@ namespace ECommerce.ProductCatalog.Model
         Task<Product[]> GetAllProductsAsync();
 
         Task AddProductAsync(Product product);
+
+        Task<Product> GetProductAsync(Guid productId);
     }
 }
